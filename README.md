@@ -1,12 +1,12 @@
 启动`jetty`服务器：
 
-```bash
+```txt
 $ mvn jetty:run
 ```
 
 测试请求：
 
-```bash
+```txt
 $ http localhost:8080/app/foo
 HTTP/1.1 200 OK
 Content-Length: 13
